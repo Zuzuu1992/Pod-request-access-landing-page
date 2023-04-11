@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pod request access landing page</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <img class="logo" src="assets/desktop/logo.svg" alt="Pod logo" />
+      </header>
+      <main>
+        <p>Publish your podcasts <span>everywhere.</span></p>
+        <p>
+          Upload your audio to Pod with a single click. We’ll then distribute
+          your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts
+          and more!
+        </p>
+        <div class="tablet-form">
+          <input
+            type="text"
+            id="email"
+            class="email"
+            name="email"
+            placeholder="Email address"
+          />
+          <button id="btn-Check" class="btn-check">Request access</button>
+          <p id="error-message" class="error-message">
+            Oops! Please check your email
+          </p>
+        </div>
+      </main>
+      <section class="featured-in">
+        <img src="assets/desktop/spotify.svg" alt="Spotify logo" />
+        <img src="assets/desktop/apple-podcast.svg" alt="Apple logo" />
+        <img
+          src="assets/desktop/google-podcasts.svg
+        "
+          alt="Google logo"
+        />
+        <img src="assets/desktop/pocket-casts.svg" alt="Pocket logo" />
+      </section>
+      <footer>
+        <form>
+          <input
+            type="text"
+            class="email2"
+            name="email"
+            placeholder="Email address"
+          />
+          <p class="error-message2">Oops! Please check your email</p>
+        </form>
+        <button class="btn-check2">Request access</button>
+      </footer>
+      <img
+        class="pattern"
+        src="assets/desktop/bg-pattern-dots.svg"
+        alt="Dots pattern"
+      />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
